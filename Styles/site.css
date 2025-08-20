@@ -1,0 +1,69 @@
+@font-face {
+    font-family: Sans-b;
+    src: url(./source-sans-pro-v14-latin-700.woff2);
+}
+@font-face {
+    font-family: Sans;
+    src: url(./SourceSansPro-Regular.woff2);
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #282a35;
+}
+.banner{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 56px;
+    font-family: Sans;
+    font-size: 1em;
+}
+.banner img{
+    height: 40px;
+    padding: 0.5em;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.banner input{
+    height: 2em;
+    border-radius: 1.2em;
+    border: 0.09em solid gray;
+}
+.banner > div{
+    display: flex;
+    align-items: center;
+    padding: 0.5em 1.5em;
+}
+#r{
+    padding: 0.5em 2em;
+}
+.button{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #04AA6D;
+    width: 7em;
+    padding: 1.3em 0;
+    color: white;
+    border: 0;
+    border-radius: 0.8em;
+    height: 60%;
+}
+.sub{
+    display: flex;
+    width: 100%;
+    height: 32.5px;
+    font-family: Sans;
+    font-size: 15px;
+    background-color: #282a35;
+    color: #e4e4e4;
+}
+.sub > div{
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+}
